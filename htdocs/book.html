@@ -1,0 +1,27 @@
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Hotel Booking System™
+    </title>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="creds">
+            <header>
+                <h1>
+                    <label for="title"/>Hotel Booking System™</label>
+                </h1>
+            </header>
+            <form action="book.php" method="post">
+                <label for="text"/>Room ID:</label><br>
+                <input type="number" id="room_id" min="1" max="10" name="room_id" step="1" required/><br><br>
+                <label for="start_time"/>Start time:</label><br>
+                <input type="datetime-local" id="start_time" name="start_time" placeholder="Start time" required/><br><br>
+                <label for="end_time"/>End time:</label><br>
+                <input type="datetime-local" id="end_time" name="end_time" placeholder="End time" required/><br><br>
+                <input type="submit" id="submit" value="Book">
+            </form>
+        </div>
+    </body>
+</html>
