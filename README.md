@@ -8,7 +8,7 @@ Programming project for a hotel booking system using HTML. CSS, PHP, and MariaDB
 ## Flowchart
 ![](images/flowchart.png)
 
-## Screenshots
+# Screenshots
 ![](images/index.png)
 <p align="center">index.html</p>
 
